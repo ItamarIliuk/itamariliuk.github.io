@@ -139,8 +139,8 @@
       "id": "ai-safety-oracle-2026",
       "data": "2026-11-13",
       "titulo": {
-        "pt": "AI Safety Meetup Brazil",
-        "en": "AI Safety Meetup Brazil"
+        "pt": "AI Safety Meetup Brazil & Oracle",
+        "en": "AI Safety Meetup Brazil & Oracle"
       },
       "local": {
         "pt": "Oracle Innovation Center, São Paulo (SP), com transmissão online",
@@ -167,6 +167,180 @@
       ],
       "link": {
         "url": "https://luma.com/beltqv5z",
+        "pt": "Página do Meetup",
+        "en": "Meetup page"
+      }
+    },
+    {
+      "id": "ai-safety-meetup-3-2026",
+      "data": "2026-02-25",
+      "titulo": {
+        "pt": "AI Safety Meetup Brazil #3",
+        "en": "AI Safety Meetup Brazil #3"
+      },
+      "local": {
+        "pt": "AI Safety Brazil · online",
+        "en": "AI Safety Brazil · online"
+      },
+      "resumo": {
+        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
+        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+      },
+      "itens": [
+        {
+          "hora": "19h30",
+          "pt": "Encontro online",
+          "en": "Online meeting"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://luma.com/a656e41o",
+        "pt": "Página do Meetup",
+        "en": "Meetup page"
+      }
+    },
+    {
+      "id": "ai-safety-meetup-4-2026",
+      "data": "2026-03-25",
+      "titulo": {
+        "pt": "AI Safety Meetup Brazil #4",
+        "en": "AI Safety Meetup Brazil #4"
+      },
+      "local": {
+        "pt": "AI Safety Brazil · online",
+        "en": "AI Safety Brazil · online"
+      },
+      "resumo": {
+        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
+        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+      },
+      "itens": [
+        {
+          "hora": "19h30",
+          "pt": "Encontro online",
+          "en": "Online meeting"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://luma.com/ktrt8ipt",
+        "pt": "Página do Meetup",
+        "en": "Meetup page"
+      }
+    },
+    {
+      "id": "ai-safety-meetup-5-2026",
+      "data": "2026-04-29",
+      "titulo": {
+        "pt": "AI Safety Meetup Brazil #5",
+        "en": "AI Safety Meetup Brazil #5"
+      },
+      "local": {
+        "pt": "AI Safety Brazil · online",
+        "en": "AI Safety Brazil · online"
+      },
+      "resumo": {
+        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
+        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+      },
+      "itens": [
+        {
+          "hora": "19h30",
+          "pt": "Encontro online",
+          "en": "Online meeting"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://luma.com/217t8fpn",
+        "pt": "Página do Meetup",
+        "en": "Meetup page"
+      }
+    },
+    {
+      "id": "ai-safety-meetup-7-2026",
+      "data": "2026-07-29",
+      "titulo": {
+        "pt": "AI Safety Meetup Brazil #7",
+        "en": "AI Safety Meetup Brazil #7"
+      },
+      "local": {
+        "pt": "AI Safety Brazil · online",
+        "en": "AI Safety Brazil · online"
+      },
+      "resumo": {
+        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
+        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+      },
+      "itens": [
+        {
+          "hora": "19h30",
+          "pt": "Encontro online",
+          "en": "Online meeting"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://luma.com/sooo8spc",
+        "pt": "Página do Meetup",
+        "en": "Meetup page"
+      }
+    },
+    {
+      "id": "ai-safety-meetup-8-2026",
+      "data": "2026-08-26",
+      "titulo": {
+        "pt": "AI Safety Meetup Brazil #8",
+        "en": "AI Safety Meetup Brazil #8"
+      },
+      "local": {
+        "pt": "AI Safety Brazil · online",
+        "en": "AI Safety Brazil · online"
+      },
+      "resumo": {
+        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
+        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+      },
+      "itens": [
+        {
+          "hora": "19h30",
+          "pt": "Encontro online",
+          "en": "Online meeting"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://luma.com/j36di9za",
+        "pt": "Página do Meetup",
+        "en": "Meetup page"
+      }
+    },
+    {
+      "id": "ai-safety-meetup-9-2026",
+      "data": "2026-09-30",
+      "titulo": {
+        "pt": "AI Safety Meetup Brazil #9",
+        "en": "AI Safety Meetup Brazil #9"
+      },
+      "local": {
+        "pt": "AI Safety Brazil · online",
+        "en": "AI Safety Brazil · online"
+      },
+      "resumo": {
+        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
+        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+      },
+      "itens": [
+        {
+          "hora": "19h30",
+          "pt": "Encontro online",
+          "en": "Online meeting"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://luma.com/657t7i8k",
         "pt": "Página do Meetup",
         "en": "Meetup page"
       }
