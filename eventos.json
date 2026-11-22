@@ -1,40 +1,165 @@
 {
   "_sobre": "Histórico de eventos do LABRIOT. Para incluir um evento, acrescente um item e rode: python tools/atualizar_eventos.py",
   "projetos": {
-    "igm": {"nome": "IGM", "url": "https://itamariliuk.github.io/igm/"},
-    "icu": {"nome": "ICU-GuardBot", "url": "https://itamariliuk.github.io/icu-guardbot/"},
-    "dt": {"nome": "Digital Twin Hands-on", "url": "https://itamariliuk.github.io/digital-twin-hands-on/"},
-    "earth2": {"nome": "Earth-2 RS", "url": "https://itamariliuk.github.io/earth2-rs-eventos-severos/"}
+    "igm": {
+      "nome": "IGM",
+      "url": "https://itamariliuk.github.io/igm/"
+    },
+    "icu": {
+      "nome": "ICU-GuardBot",
+      "url": "https://itamariliuk.github.io/icu-guardbot/"
+    },
+    "dt": {
+      "nome": "Digital Twin Hands-on",
+      "url": "https://itamariliuk.github.io/digital-twin-hands-on/"
+    },
+    "earth2": {
+      "nome": "Earth-2 RS",
+      "url": "https://itamariliuk.github.io/earth2-rs-eventos-severos/"
+    }
   },
   "eventos": [
     {
       "id": "abinc-2026",
       "data": "2026-11-25",
-      "titulo": {"pt": "Prêmio IoT ABINC 2026", "en": "ABINC IoT Award 2026"},
-      "local": {"pt": "inovabra habitat, São Paulo (SP)", "en": "inovabra habitat, São Paulo, Brazil"},
-      "resumo": {"pt": "Cerimônia de premiação da 8ª edição. O IGM é finalista; os vencedores de cada categoria são anunciados ao vivo.",
-                 "en": "Award ceremony of the 8th edition. IGM is a finalist; the winners of each category are announced live."},
+      "titulo": {
+        "pt": "Prêmio IoT ABINC 2026",
+        "en": "ABINC IoT Award 2026"
+      },
+      "local": {
+        "pt": "inovabra habitat, São Paulo (SP)",
+        "en": "inovabra habitat, São Paulo, Brazil"
+      },
+      "resumo": {
+        "pt": "Cerimônia de premiação da 8ª edição. O IGM é finalista; os vencedores de cada categoria são anunciados ao vivo.",
+        "en": "Award ceremony of the 8th edition. IGM is a finalist; the winners of each category are announced live."
+      },
       "itens": [
-        {"hora": "17h00", "pt": "Abertura", "en": "Opening"},
-        {"hora": "17h30", "pt": "Apresentação dos finalistas e anúncio dos vencedores", "en": "Finalists' presentations and winners announced"}
+        {
+          "hora": "17h00",
+          "pt": "Abertura",
+          "en": "Opening"
+        },
+        {
+          "hora": "17h30",
+          "pt": "Apresentação dos finalistas e anúncio dos vencedores",
+          "en": "Finalists' presentations and winners announced"
+        }
       ],
-      "projetos": ["igm"],
-      "link": {"url": "https://abinc.org.br/premio-iot-2026/#cerimonia-premio-iot-2026", "pt": "Página da premiação", "en": "Award page"}
+      "projetos": [
+        "igm"
+      ],
+      "link": {
+        "url": "https://abinc.org.br/premio-iot-2026/#cerimonia-premio-iot-2026",
+        "pt": "Página da premiação",
+        "en": "Award page"
+      }
     },
     {
       "id": "ia-summit-pf-2026",
       "data": "2026-11-27",
-      "titulo": {"pt": "IA Summit Passo Fundo", "en": "IA Summit Passo Fundo"},
-      "local": {"pt": "UPF Parque, Passo Fundo (RS)", "en": "UPF Parque, Passo Fundo, Brazil"},
-      "resumo": {"pt": "A Dra. Itamar Iliuk é palestrante principal, com um workshop, um painel e a palestra da noite, que mostra os quatro projetos do LABRIOT.",
-                 "en": "Dr. Itamar Iliuk is a keynote speaker, with a workshop, a panel and the evening keynote, which shows all four LABRIOT projects."},
+      "titulo": {
+        "pt": "IA Summit Passo Fundo",
+        "en": "IA Summit Passo Fundo"
+      },
+      "local": {
+        "pt": "UPF Parque, Passo Fundo (RS)",
+        "en": "UPF Parque, Passo Fundo, Brazil"
+      },
+      "resumo": {
+        "pt": "A Dra. Itamar Iliuk é palestrante principal, com um workshop, um painel e a palestra da noite, que mostra os quatro projetos do LABRIOT.",
+        "en": "Dr. Itamar Iliuk is a keynote speaker, with a workshop, a panel and the evening keynote, which shows all four LABRIOT projects."
+      },
       "itens": [
-        {"hora": "09h00", "pt": "Workshop Digital Twin Hands-on · Arena, Prédio 3", "en": "Digital Twin Hands-on workshop · Arena, Building 3"},
-        {"hora": "16h45", "pt": "Painel “Do prompt à empresa autônoma” · Stage Valley, Prédio 1", "en": "Panel “From prompt to autonomous company” · Stage Valley, Building 1"},
-        {"hora": "19h30", "pt": "Palestra principal “Como gêmeos digitais criam empresas mais inteligentes, rápidas e eficientes” · Stage Valley, Prédio 1", "en": "Keynote “How digital twins make companies smarter, faster and more efficient” · Stage Valley, Building 1"}
+        {
+          "hora": "09h00",
+          "pt": "Workshop Digital Twin Hands-on · Arena, Prédio 3",
+          "en": "Digital Twin Hands-on workshop · Arena, Building 3"
+        },
+        {
+          "hora": "16h45",
+          "pt": "Painel “Do prompt à empresa autônoma” · Stage Valley, Prédio 1",
+          "en": "Panel “From prompt to autonomous company” · Stage Valley, Building 1"
+        },
+        {
+          "hora": "19h30",
+          "pt": "Palestra principal “Como gêmeos digitais criam empresas mais inteligentes, rápidas e eficientes” · Stage Valley, Prédio 1",
+          "en": "Keynote “How digital twins make companies smarter, faster and more efficient” · Stage Valley, Building 1"
+        }
       ],
-      "projetos": ["dt", "earth2", "igm", "icu"],
-      "link": {"url": "https://iasummitpassofundo.com.br/programacao", "pt": "Programação do Summit", "en": "Summit programme"}
+      "projetos": [
+        "dt",
+        "earth2",
+        "igm",
+        "icu"
+      ],
+      "link": {
+        "url": "https://iasummitpassofundo.com.br/programacao",
+        "pt": "Programação do Summit",
+        "en": "Summit programme"
+      }
+    },
+    {
+      "id": "webinar-embarcados-2026",
+      "data": "2026-10-06",
+      "titulo": {
+        "pt": "Webinar “Do Gêmeo Digital à Fábrica Inteligente”",
+        "en": "Webinar “From Digital Twin to Smart Factory”"
+      },
+      "local": {
+        "pt": "Fórum Embarcados · online, de 6 a 8 de outubro",
+        "en": "Fórum Embarcados · online, October 6–8"
+      },
+      "resumo": {
+        "pt": "Palestra de uma hora sobre IA, robótica e edge computing com NVIDIA: do CAD ao gêmeo digital em OpenUSD, treino com dados sintéticos e execução na borda.",
+        "en": "One-hour talk on AI, robotics and edge computing with NVIDIA: from CAD to an OpenUSD digital twin, training on synthetic data and running at the edge."
+      },
+      "itens": [
+        {
+          "hora": "Demo",
+          "pt": "Célula de paletização com UR10, fechando em Jetson Orin",
+          "en": "UR10 palletizing cell, deployed on Jetson Orin"
+        },
+        {
+          "hora": "Demo",
+          "pt": "Robô móvel Nova Carter em armazém, fechando em Jetson Thor",
+          "en": "Nova Carter mobile robot in a warehouse, deployed on Jetson Thor"
+        }
+      ],
+      "projetos": [
+        "dt"
+      ]
+    },
+    {
+      "id": "ai-safety-oracle-2026",
+      "data": "2026-11-13",
+      "titulo": {
+        "pt": "AI Safety Meetup Brazil",
+        "en": "AI Safety Meetup Brazil"
+      },
+      "local": {
+        "pt": "Oracle Innovation Center, São Paulo (SP), com transmissão online",
+        "en": "Oracle Innovation Center, São Paulo, Brazil, also streamed online"
+      },
+      "resumo": {
+        "pt": "Palestra sobre segurança por construção em robótica e gêmeos digitais, com os casos do UR10 e da saúde, seguida de mesa-redonda.",
+        "en": "Talk on safety by design in robotics and digital twins, with the UR10 and healthcare cases, followed by a round table."
+      },
+      "itens": [
+        {
+          "hora": "19h50",
+          "pt": "Palestra “Segurança na implementação de robótica e digital twins”",
+          "en": "Talk “Safety in deploying robotics and digital twins”"
+        },
+        {
+          "hora": "20h10",
+          "pt": "Mesa-redonda",
+          "en": "Round table"
+        }
+      ],
+      "projetos": [
+        "dt"
+      ]
     }
   ]
 }

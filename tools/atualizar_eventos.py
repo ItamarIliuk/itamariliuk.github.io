@@ -75,6 +75,8 @@ def evento_html(e, projs, hoje):
     st = "proximo" if data >= hoje else "realizado"
     mes = {l: f"{MESES[l][data.month - 1]} · {data.year}" for l in ("pt", "en")}
     itens = "".join(f'<li><span class="h">{i["hora"]}</span>{bi(i)}</li>' for i in e["itens"])
+    lk = e.get("link")  # opcional: evento sem página pública fica sem o link
+    link = f'<a href="{lk["url"]}">{bi(lk)} ↗</a>' if lk else ""
     chips = "".join(f'<a href="{projs[p]["url"]}">{html.escape(projs[p]["nome"])}</a>' for p in e["projetos"])
     return (f'<li class="ev {st}" id="{e["id"]}">'
             f'<div class="data"><span class="d">{data.day}</span>{bi(mes, cls="m")}</div>'
@@ -82,7 +84,7 @@ def evento_html(e, projs, hoje):
             f'{bi(e["local"], "p", "local")}{bi(e["resumo"], "p", "resumo")}'
             f'<ul class="itens">{itens}</ul>'
             f'<div class="rodape"><span class="proj">{chips}</span>'
-            f'<a href="{e["link"]["url"]}">{bi(e["link"])} ↗</a></div></div></li>')
+            f'{link}</div></div></li>')
 
 
 def secao(proj, dados, hoje):
