@@ -1,0 +1,40 @@
+{
+  "_sobre": "Histórico de eventos do LABRIOT. Para incluir um evento, acrescente um item e rode: python tools/atualizar_eventos.py",
+  "projetos": {
+    "igm": {"nome": "IGM", "url": "https://itamariliuk.github.io/igm/"},
+    "icu": {"nome": "ICU-GuardBot", "url": "https://itamariliuk.github.io/icu-guardbot/"},
+    "dt": {"nome": "Digital Twin Hands-on", "url": "https://itamariliuk.github.io/digital-twin-hands-on/"},
+    "earth2": {"nome": "Earth-2 RS", "url": "https://itamariliuk.github.io/earth2-rs-eventos-severos/"}
+  },
+  "eventos": [
+    {
+      "id": "abinc-2026",
+      "data": "2026-11-25",
+      "titulo": {"pt": "Prêmio IoT ABINC 2026", "en": "ABINC IoT Award 2026"},
+      "local": {"pt": "inovabra habitat, São Paulo (SP)", "en": "inovabra habitat, São Paulo, Brazil"},
+      "resumo": {"pt": "Cerimônia de premiação da 8ª edição. O IGM é finalista; os vencedores de cada categoria são anunciados ao vivo.",
+                 "en": "Award ceremony of the 8th edition. IGM is a finalist; the winners of each category are announced live."},
+      "itens": [
+        {"hora": "17h00", "pt": "Abertura", "en": "Opening"},
+        {"hora": "17h30", "pt": "Apresentação dos finalistas e anúncio dos vencedores", "en": "Finalists' presentations and winners announced"}
+      ],
+      "projetos": ["igm"],
+      "link": {"url": "https://abinc.org.br/premio-iot-2026/#cerimonia-premio-iot-2026", "pt": "Página da premiação", "en": "Award page"}
+    },
+    {
+      "id": "ia-summit-pf-2026",
+      "data": "2026-11-27",
+      "titulo": {"pt": "IA Summit Passo Fundo", "en": "IA Summit Passo Fundo"},
+      "local": {"pt": "UPF Parque, Passo Fundo (RS)", "en": "UPF Parque, Passo Fundo, Brazil"},
+      "resumo": {"pt": "A Dra. Itamar Iliuk é palestrante principal, com um workshop, um painel e a palestra da noite, que mostra os quatro projetos do LABRIOT.",
+                 "en": "Dr. Itamar Iliuk is a keynote speaker, with a workshop, a panel and the evening keynote, which shows all four LABRIOT projects."},
+      "itens": [
+        {"hora": "09h00", "pt": "Workshop Digital Twin Hands-on · Arena, Prédio 3", "en": "Digital Twin Hands-on workshop · Arena, Building 3"},
+        {"hora": "16h45", "pt": "Painel “Do prompt à empresa autônoma” · Stage Valley, Prédio 1", "en": "Panel “From prompt to autonomous company” · Stage Valley, Building 1"},
+        {"hora": "19h30", "pt": "Palestra principal “Como gêmeos digitais criam empresas mais inteligentes, rápidas e eficientes” · Stage Valley, Prédio 1", "en": "Keynote “How digital twins make companies smarter, faster and more efficient” · Stage Valley, Building 1"}
+      ],
+      "projetos": ["dt", "earth2", "igm", "icu"],
+      "link": {"url": "https://iasummitpassofundo.com.br/programacao", "pt": "Programação do Summit", "en": "Summit programme"}
+    }
+  ]
+}

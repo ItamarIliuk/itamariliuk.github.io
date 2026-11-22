@@ -12,3 +12,13 @@ the NVIDIA Inception program:
 
 This repository holds only the static page (`index.html` and `assets/`). Product names are trademarks of their owners;
 these projects are not endorsed by NVIDIA or Universal Robots.
+
+## Eventos
+
+A seção "Onde estamos" desta página e a seção "Eventos" das páginas dos projetos saem de `eventos.json`. Para registrar uma participação, acrescente o evento ao arquivo e rode, com os repositórios dos projetos clonados em pastas irmãs:
+
+```
+python tools/atualizar_eventos.py
+```
+
+A data do dia decide o que aparece como "Próximo" e o que vira "Realizado"; rode de novo depois de cada evento e publique os sites que mudaram.
