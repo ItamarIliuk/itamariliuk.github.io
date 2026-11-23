@@ -346,6 +346,40 @@
         "pt": "Página do Meetup",
         "en": "Meetup page"
       }
+    },
+    {
+      "id": "ai-brasil-experience-2026",
+      "data": "2026-10-28",
+      "titulo": {
+        "pt": "AI Brasil Experience 2026",
+        "en": "AI Brasil Experience 2026"
+      },
+      "local": {
+        "pt": "Distrito Anhembi, São Paulo (SP) · Arena Nós Somos",
+        "en": "Distrito Anhembi, São Paulo, Brazil · Nós Somos arena"
+      },
+      "resumo": {
+        "pt": "Dois painéis seguidos pela AI Safety Brazil, com Maria Eva Mit Lazarin, Paula Coelho e Elaine Coimbra, num evento com 5 arenas e mais de 150 palestras.",
+        "en": "Two back-to-back panels for AI Safety Brazil, with Maria Eva Mit Lazarin, Paula Coelho and Elaine Coimbra, at an event with 5 arenas and over 150 talks."
+      },
+      "itens": [
+        {
+          "hora": "14h00",
+          "pt": "Painel: como desenvolver um projeto de IA seguro",
+          "en": "Panel: how to build a safe AI project"
+        },
+        {
+          "hora": "15h30",
+          "pt": "Painel: cidades inteligentes",
+          "en": "Panel: smart cities"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://aibrasilexperience.com/",
+        "pt": "Site do evento",
+        "en": "Event website"
+      }
     }
   ]
 }
