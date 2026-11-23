@@ -20,6 +20,10 @@
     "pomar": {
       "nome": "Drone no Pomar",
       "url": "https://itamariliuk.github.io/drone-pomar/"
+    },
+    "iapt": {
+      "nome": "IA para Todos",
+      "url": "https://itamariliuk.github.io/ia-para-todos/"
     }
   },
   "eventos": [
@@ -447,6 +451,56 @@
         "pt": "Site do Summit",
         "en": "Summit website"
       }
+    },
+    {
+      "id": "unicesumar-semana-academica-2026",
+      "data": "2026-11-17",
+      "titulo": {
+        "pt": "Semana Acadêmica UniCesumar",
+        "en": "UniCesumar Academic Week"
+      },
+      "local": {
+        "pt": "UniCesumar, Ponta Grossa (PR)",
+        "en": "UniCesumar, Ponta Grossa, Brazil"
+      },
+      "resumo": {
+        "pt": "Palestra para estudantes de computação sobre agentes de IA e o que muda no trabalho de quem desenvolve software.",
+        "en": "Talk for computing students on AI agents and what changes in the work of software developers."
+      },
+      "itens": [
+        {
+          "hora": "21h00",
+          "pt": "Palestra “Agentes de IA e o Novo Papel do Dev”",
+          "en": "Talk “AI Agents and the New Role of the Developer”"
+        }
+      ],
+      "projetos": []
+    },
+    {
+      "id": "fakenews-iolando-2026",
+      "data": "2026-11-19",
+      "titulo": {
+        "pt": "Fake news e IA segura · Colégio Iolando Taques",
+        "en": "Fake news and safe AI · Colégio Iolando Taques"
+      },
+      "local": {
+        "pt": "Colégio Estadual Iolando Taques Bittencourt, Ponta Grossa (PR)",
+        "en": "Colégio Estadual Iolando Taques Bittencourt, Ponta Grossa, Brazil"
+      },
+      "resumo": {
+        "pt": "Encontro com pais e alunos do projeto IA para Todos: como as mentiras digitais são fabricadas, o que a lei diz e como a família pode se proteger e usar a tecnologia sem medo.",
+        "en": "Meeting with parents and students of the AI for All project: how digital lies are made, what the law says and how families can protect themselves and use technology without fear."
+      },
+      "itens": [
+        {
+          "hora": "09h00",
+          "pt": "Palestra “Fake news e IA segura” e oficina com as famílias, com material impresso",
+          "en": "Talk “Fake news and safe AI” and a workshop with families, with printed material"
+        }
+      ],
+      "projetos": [
+        "iapt"
+      ]
     }
   ]
 }
