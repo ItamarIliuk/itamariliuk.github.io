@@ -183,14 +183,14 @@
         "en": "AI Safety Brazil · online"
       },
       "resumo": {
-        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
-        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+        "pt": "Encontro mensal e online da comunidade brasileira de segurança em IA, com falas curtas, salas temáticas e networking.",
+        "en": "Monthly online meeting of Brazil's AI safety community, with short talks, themed rooms and networking."
       },
       "itens": [
         {
           "hora": "19h30",
-          "pt": "Encontro online",
-          "en": "Online meeting"
+          "pt": "Fala sobre segurança na escolha de modelos (ChatGPT, Claude e Gemini): o contrato define o risco jurídico, a retenção de dados e a responsabilidade",
+          "en": "Talk on safety when choosing models (ChatGPT, Claude and Gemini): the contract sets the legal risk, data retention and liability"
         }
       ],
       "projetos": [],
@@ -212,14 +212,14 @@
         "en": "AI Safety Brazil · online"
       },
       "resumo": {
-        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
-        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+        "pt": "Encontro mensal e online da comunidade brasileira de segurança em IA, com falas curtas, salas temáticas e networking.",
+        "en": "Monthly online meeting of Brazil's AI safety community, with short talks, themed rooms and networking."
       },
       "itens": [
         {
           "hora": "19h30",
-          "pt": "Encontro online",
-          "en": "Online meeting"
+          "pt": "Palestra “IA Segura do Zero: Princípios Éticos para o Seu Primeiro Projeto”",
+          "en": "Talk “Safe AI from Scratch: Ethical Principles for Your First Project”"
         }
       ],
       "projetos": [],
@@ -241,14 +241,14 @@
         "en": "AI Safety Brazil · online"
       },
       "resumo": {
-        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
-        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+        "pt": "Encontro mensal e online da comunidade brasileira de segurança em IA, com falas curtas, salas temáticas e networking.",
+        "en": "Monthly online meeting of Brazil's AI safety community, with short talks, themed rooms and networking."
       },
       "itens": [
         {
           "hora": "19h30",
-          "pt": "Encontro online",
-          "en": "Online meeting"
+          "pt": "Palestra “O Custo da Conveniência: Vulnerabilidades em Cadeia na Era do Vibe Coding”",
+          "en": "Talk “The Cost of Convenience: Chained Vulnerabilities in the Vibe Coding Era”"
         }
       ],
       "projetos": [],
@@ -270,14 +270,14 @@
         "en": "AI Safety Brazil · online"
       },
       "resumo": {
-        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
-        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+        "pt": "Encontro mensal e online da comunidade brasileira de segurança em IA, com falas curtas, salas temáticas e networking.",
+        "en": "Monthly online meeting of Brazil's AI safety community, with short talks, themed rooms and networking."
       },
       "itens": [
         {
           "hora": "19h30",
-          "pt": "Encontro online",
-          "en": "Online meeting"
+          "pt": "Palestra “A Ilusão da Trava: Geopolítica, Pesos Abertos e Soberania em IA”",
+          "en": "Talk “The Illusion of the Lock: Geopolitics, Open Weights and AI Sovereignty”"
         }
       ],
       "projetos": [],
@@ -299,17 +299,19 @@
         "en": "AI Safety Brazil · online"
       },
       "resumo": {
-        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
-        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+        "pt": "Encontro mensal e online da comunidade brasileira de segurança em IA, com falas curtas, salas temáticas e networking.",
+        "en": "Monthly online meeting of Brazil's AI safety community, with short talks, themed rooms and networking."
       },
       "itens": [
         {
           "hora": "19h30",
-          "pt": "Encontro online",
-          "en": "Online meeting"
+          "pt": "Palestra “Segurança em Robótica e IA Embarcada: Desafios de AI Safety na Indústria, Saúde e Cuidados”",
+          "en": "Talk “Safety in Robotics and Embedded AI: AI Safety Challenges in Industry, Health and Care”"
         }
       ],
-      "projetos": [],
+      "projetos": [
+        "dt"
+      ],
       "link": {
         "url": "https://luma.com/j36di9za",
         "pt": "Página do Meetup",
@@ -328,14 +330,14 @@
         "en": "AI Safety Brazil · online"
       },
       "resumo": {
-        "pt": "Encontro mensal da comunidade brasileira de segurança em IA, com falas curtas e salas temáticas. A Dra. Itamar Iliuk participa como palestrante, pelo Comitê Técnico-Científico.",
-        "en": "Monthly meeting of Brazil's AI safety community, with short talks and themed rooms. Dr. Itamar Iliuk takes part as a speaker, for the Technical-Scientific Committee."
+        "pt": "Encontro mensal e online da comunidade brasileira de segurança em IA, com falas curtas, salas temáticas e networking.",
+        "en": "Monthly online meeting of Brazil's AI safety community, with short talks, themed rooms and networking."
       },
       "itens": [
         {
           "hora": "19h30",
-          "pt": "Encontro online",
-          "en": "Online meeting"
+          "pt": "Palestra “Modelos JEV vs. LLMs: A Ilusão da Segurança Sintática e os Vieses de Enquadramento”",
+          "en": "Talk “JEV Models vs. LLMs: The Illusion of Syntactic Safety and Framing Biases”"
         }
       ],
       "projetos": [],
