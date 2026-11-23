@@ -16,6 +16,10 @@
     "earth2": {
       "nome": "Earth-2 RS",
       "url": "https://itamariliuk.github.io/earth2-rs-eventos-severos/"
+    },
+    "pomar": {
+      "nome": "Drone no Pomar",
+      "url": "https://itamariliuk.github.io/drone-pomar/"
     }
   },
   "eventos": [
@@ -67,8 +71,8 @@
         "en": "UPF Parque, Passo Fundo, Brazil"
       },
       "resumo": {
-        "pt": "A Dra. Itamar Iliuk é palestrante principal, com um workshop, um painel e a palestra da noite, que mostra os quatro projetos do LABRIOT.",
-        "en": "Dr. Itamar Iliuk is a keynote speaker, with a workshop, a panel and the evening keynote, which shows all four LABRIOT projects."
+        "pt": "A Dra. Itamar Iliuk é palestrante principal, com um workshop, um painel e a palestra da noite, que mostra os cinco projetos do LABRIOT.",
+        "en": "Dr. Itamar Iliuk is a keynote speaker, with a workshop, a panel and the evening keynote, which shows all five LABRIOT projects."
       },
       "itens": [
         {
@@ -91,7 +95,8 @@
         "dt",
         "earth2",
         "igm",
-        "icu"
+        "icu",
+        "pomar"
       ],
       "link": {
         "url": "https://iasummitpassofundo.com.br/programacao",

@@ -26,6 +26,7 @@ SITES = {
     "earth2": (os.path.join(IRMAS, "earth2-rs-eventos-severos"), "assets/site.css", "earth2", '<section id="reproduzir">'),
     "igm": (os.path.join(IRMAS, "igm"), None, "igm", '<section id="tech">'),
     "icu": (os.path.join(IRMAS, "icu-guardbot-site"), None, "icu", '<section id="tech">'),
+    "pomar": (os.path.join(IRMAS, "drone-pomar"), "assets/site.css", "pomar", '<section id="parceria">'),
 }
 
 CSS = """/* eventos:inicio */
