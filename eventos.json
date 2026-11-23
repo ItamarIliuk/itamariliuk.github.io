@@ -434,7 +434,9 @@
           "en": "Topic and time to be confirmed"
         }
       ],
-      "projetos": [],
+      "projetos": [
+        "dt"
+      ],
       "link": {
         "url": "https://www.summitdeinteligenciaartificial.com/",
         "pt": "Site do Summit",
