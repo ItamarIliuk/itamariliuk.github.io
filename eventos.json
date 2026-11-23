@@ -382,28 +382,64 @@
       }
     },
     {
-      "id": "upload-ai-brasil-2026",
-      "data": "2026-08-14",
+      "id": "summit-ia-joinville-2026",
+      "data": "2026-06-18",
       "titulo": {
-        "pt": "Upload AI Brasil Experience 2026",
-        "en": "Upload AI Brasil Experience 2026"
+        "pt": "Summit de I.A. Brasil 2026",
+        "en": "Summit de I.A. Brasil 2026"
       },
       "local": {
-        "pt": "inovabra habitat, São Paulo (SP)",
-        "en": "inovabra habitat, São Paulo, Brazil"
+        "pt": "Ágora Tech Park, Joinville (SC) · 18 a 20 de junho",
+        "en": "Ágora Tech Park, Joinville, Brazil · June 18–20"
       },
       "resumo": {
-        "pt": "Um dia inteiro de palestras e painéis sobre adoção da IA nas empresas, educação e capacitação, governança, segurança e privacidade, com a AI Safety Brazil.",
-        "en": "A full day of talks and panels on AI adoption in companies, education and training, governance, security and privacy, with AI Safety Brazil."
+        "pt": "A Dra. Itamar Iliuk é palestrante, como NVIDIA Omniverse Ambassador, num dos maiores encontros de inteligência artificial da América Latina.",
+        "en": "Dr. Itamar Iliuk is a speaker, as an NVIDIA Omniverse Ambassador, at one of Latin America's largest artificial intelligence gatherings."
       },
       "itens": [
         {
-          "hora": "Painel",
-          "pt": "“Brasil no Comando da IA: as lideranças que estão construindo o futuro”",
-          "en": "“Brazil in Command of AI: the leaders building the future”"
+          "hora": "Palestra",
+          "pt": "“Como Gêmeos Digitais Criam Empresas Mais Inteligentes, Rápidas e Eficientes”",
+          "en": "“How Digital Twins Make Companies Smarter, Faster and More Efficient”"
         }
       ],
-      "projetos": []
+      "projetos": [
+        "dt"
+      ],
+      "link": {
+        "url": "https://www.summitdeinteligenciaartificial.com/",
+        "pt": "Site do Summit",
+        "en": "Summit website"
+      }
+    },
+    {
+      "id": "summit-ia-joinville-2027",
+      "data": "2027-06-23",
+      "titulo": {
+        "pt": "Summit de I.A. Brasil 2027 · Turing 115",
+        "en": "Summit de I.A. Brasil 2027 · Turing 115"
+      },
+      "local": {
+        "pt": "Ágora Tech Park, Joinville (SC) · 23 a 26 de junho de 2027",
+        "en": "Ágora Tech Park, Joinville, Brazil · June 23–26, 2027"
+      },
+      "resumo": {
+        "pt": "A Dra. Itamar Iliuk volta como palestrante na edição que celebra os 115 anos de Alan Turing, com oito trilhas e seis palcos simultâneos.",
+        "en": "Dr. Itamar Iliuk returns as a speaker at the edition celebrating Alan Turing's 115th birthday, with eight tracks and six simultaneous stages."
+      },
+      "itens": [
+        {
+          "hora": "Palestra",
+          "pt": "Tema e horário a confirmar",
+          "en": "Topic and time to be confirmed"
+        }
+      ],
+      "projetos": [],
+      "link": {
+        "url": "https://www.summitdeinteligenciaartificial.com/",
+        "pt": "Site do Summit",
+        "en": "Summit website"
+      }
     }
   ]
 }
