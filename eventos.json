@@ -380,6 +380,30 @@
         "pt": "Site do evento",
         "en": "Event website"
       }
+    },
+    {
+      "id": "upload-ai-brasil-2026",
+      "data": "2026-08-14",
+      "titulo": {
+        "pt": "Upload AI Brasil Experience 2026",
+        "en": "Upload AI Brasil Experience 2026"
+      },
+      "local": {
+        "pt": "inovabra habitat, São Paulo (SP)",
+        "en": "inovabra habitat, São Paulo, Brazil"
+      },
+      "resumo": {
+        "pt": "Um dia inteiro de palestras e painéis sobre adoção da IA nas empresas, educação e capacitação, governança, segurança e privacidade, com a AI Safety Brazil.",
+        "en": "A full day of talks and panels on AI adoption in companies, education and training, governance, security and privacy, with AI Safety Brazil."
+      },
+      "itens": [
+        {
+          "hora": "Painel",
+          "pt": "“Brasil no Comando da IA: as lideranças que estão construindo o futuro”",
+          "en": "“Brazil in Command of AI: the leaders building the future”"
+        }
+      ],
+      "projetos": []
     }
   ]
 }
