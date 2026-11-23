@@ -511,6 +511,35 @@
         "pt": "Página do encontro e materiais",
         "en": "Meeting page and materials"
       }
+    },
+    {
+      "id": "seminario-ia-inovacao-publica-pr-2026",
+      "data": "2026-12-03",
+      "titulo": {
+        "pt": "Seminário Estadual de IA e Inovação Pública",
+        "en": "Paraná State Seminar on AI and Public Innovation"
+      },
+      "local": {
+        "pt": "Auditório Mário Lobo, Palácio das Araucárias, Curitiba (PR)",
+        "en": "Mário Lobo Auditorium, Palácio das Araucárias, Curitiba, Brazil"
+      },
+      "resumo": {
+        "pt": "A convite do Governo do Paraná, a Dra. Itamar Iliuk fala sobre responsabilidade e segurança jurídica no uso de IA pelo setor público e participa da mesa-redonda.",
+        "en": "At the invitation of the Paraná State Government, Dr. Itamar Iliuk speaks on accountability and legal certainty in public-sector AI and joins the round table."
+      },
+      "itens": [
+        {
+          "hora": "14h20",
+          "pt": "Palestra “Responsabilidade e Segurança Jurídica: Diretrizes para a IA no Setor Público”",
+          "en": "Talk “Accountability and Legal Certainty: Guidelines for AI in the Public Sector”"
+        },
+        {
+          "hora": "16h15",
+          "pt": "Mesa-redonda",
+          "en": "Round table"
+        }
+      ],
+      "projetos": []
     }
   ]
 }
