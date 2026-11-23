@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="pt">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Agentes de IA e o novo papel do dev · LABRIOT</title>
+<meta name="description" content="Palestra da Profa. Dra. Itamar Iliuk na 2ª Semana Acadêmica da UniCesumar Ponta Grossa: como um agente de IA funciona por dentro, quanto custa e como trabalhar com ele sem perder a engenharia.">
+<meta property="og:title" content="Agentes de IA e o novo papel do desenvolvedor">
+<meta property="og:description" content="Como um agente de IA funciona por dentro, quanto custa e como trabalhar com ele sem perder a engenharia. Palestra na Semana Acadêmica da UniCesumar Ponta Grossa, 17/11/2026.">
+<meta property="og:image" content="capa.jpg">
+<link rel="icon" href="../../assets/img/labriot-logo-64.png" type="image/png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../../assets/site.css">
+<script src="../../assets/site.js"></script>
+<style>
+.capa{width:100%;aspect-ratio:1280/665;object-fit:cover;border-radius:var(--radius);border:1px solid var(--line);display:block;background:#0B1020}
+.partes{counter-reset:p}
+.partes .card h3::before{counter-increment:p;content:"0" counter(p) " · ";color:var(--brand)}
+.desafio{list-style:none;margin:0;padding:0;display:grid;gap:10px;counter-reset:d}
+.desafio li{display:grid;grid-template-columns:32px 1fr;gap:10px;align-items:start}
+.desafio li::before{counter-increment:d;content:counter(d);display:grid;place-items:center;width:28px;height:28px;border-radius:50%;background:color-mix(in srgb,var(--brand) 14%,transparent);color:var(--brand);font-weight:700;font-size:14px}
+.meta{color:var(--muted);font-size:15px;margin:0 0 18px}
+</style>
+</head>
+<body>
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="../../"><img src="../../assets/img/labriot-logo-64.png" alt="">LABRIOT</a>
+    <nav class="links">
+      <a href="#roteiro"><span lang="pt">Roteiro</span><span lang="en">Outline</span></a>
+      <a href="#desafio"><span lang="pt">Desafio</span><span lang="en">Challenge</span></a>
+      <a href="slides.html"><span lang="pt">Slides</span><span lang="en">Slides</span></a>
+    </nav>
+    <div class="lang" role="group" aria-label="Idioma / Language">
+      <button type="button" data-set-lang="pt" aria-pressed="true">PT</button>
+      <button type="button" data-set-lang="en" aria-pressed="false">EN</button>
+    </div>
+  </div>
+</header>
+
+<main>
+<div class="hero"><div class="wrap">
+  <div class="grid">
+    <div>
+      <div class="badges">
+        <span class="badge hl"><span lang="pt">Palestra</span><span lang="en">Talk</span></span>
+        <span class="badge">2ª Semana Acadêmica · UniCesumar Ponta Grossa</span>
+        <span class="badge"><span lang="pt">17/11/2026 · 90 min</span><span lang="en">Nov 17, 2026 · 90 min</span></span>
+      </div>
+      <h1><span lang="pt">Agentes de IA e o novo papel do <span class="hl">desenvolvedor</span></span><span lang="en">AI agents and the new role of the <span class="hl">developer</span></span></h1>
+      <p class="lede" lang="pt">Como um agente funciona por dentro, quanto ele custa e como trabalhar com ele sem perder a engenharia. Uma palestra para estudantes de computação, com diagramas, código e calculadoras que rodam no próprio slide.</p>
+      <p class="lede" lang="en">How an agent works inside, what it costs and how to work with it without losing the engineering. A talk for computing students, with diagrams, code and calculators that run inside the slides. The slides are in Portuguese.</p>
+      <p class="meta">Profa. Dra. Itamar Iliuk · UTFPR Ponta Grossa / LABRIOT</p>
+      <div class="cta">
+        <a class="btn primary" href="slides.html"><span lang="pt">Abrir os slides</span><span lang="en">Open the slides</span></a>
+        <a class="btn ghost" href="#roteiro"><span lang="pt">Ver o roteiro</span><span lang="en">See the outline</span></a>
+      </div>
+    </div>
+    <a href="slides.html"><img class="capa" src="capa.jpg" width="1280" height="665" alt="Cover slide: Agentes de IA e o novo papel do desenvolvedor, with a loop diagram of context, think, act and observe"></a>
+  </div>
+</div></div>
+
+<section id="roteiro"><div class="wrap">
+  <h2><span lang="pt">Do conceito à prática, em seis partes</span><span lang="en">From concept to practice, in six parts</span></h2>
+  <p class="sub" lang="pt">Em cada parte: o conceito, como funciona por dentro (com diagrama) e a prática, com código, pseudocódigo ou uma calculadora para mexer.</p>
+  <p class="sub" lang="en">Each part has the concept, how it works inside (with a diagram) and the practice, with code, pseudocode or a calculator to play with.</p>
+  <div class="cards partes">
+    <div class="card">
+      <h3><span lang="pt">O que é um agente de IA</span><span lang="en">What an AI agent is</span></h3>
+      <p lang="pt">Um chat responde; um agente persegue um objetivo. O loop pensar, agir, observar, um agente mínimo em 15 linhas e o que o Claude Code e o Antigravity, com Gemini, fazem de diferente.</p>
+      <p lang="en">A chat answers; an agent pursues a goal. The think, act, observe loop, a minimal agent in 15 lines and how Claude Code and Antigravity, with Gemini, differ.</p>
+    </div>
+    <div class="card">
+      <h3><span lang="pt">O harness do agente</span><span lang="en">The agent harness</span></h3>
+      <p lang="pt">O modelo é o motor; o harness é o carro inteiro. Memória do projeto, skills, permissões e hooks, subagentes e MCP, a tomada padrão para ferramentas.</p>
+      <p lang="en">The model is the engine; the harness is the whole car. Project memory, skills, permissions and hooks, subagents and MCP, the standard plug for tools.</p>
+    </div>
+    <div class="card">
+      <h3><span lang="pt">Tokens, local × nuvem, CAPEX × OPEX</span><span lang="en">Tokens, local vs. cloud, CAPEX vs. OPEX</span></h3>
+      <p lang="pt">Agente não é grátis. Por que o custo cresce mais rápido que os passos, quanto gasta um time, se um modelo cabe na sua GPU e quando um servidor próprio se paga.</p>
+      <p lang="en">Agents are not free. Why the cost grows faster than the steps, what a team spends, whether a model fits your GPU and when your own server pays off.</p>
+    </div>
+    <div class="card">
+      <h3><span lang="pt">Spec-Driven Development</span><span lang="en">Spec-Driven Development</span></h3>
+      <p lang="pt">Quando escrever código fica barato, o que vale é saber o que construir. Vibe coding contra specs, os quatro artefatos de uma feature e o que continua sendo trabalho humano.</p>
+      <p lang="en">When writing code gets cheap, knowing what to build is what counts. Vibe coding versus specs, the four artefacts of a feature and what stays human work.</p>
+    </div>
+    <div class="card">
+      <h3><span lang="pt">CI/CD com ferramentas agênticas</span><span lang="en">CI/CD with agentic tools</span></h3>
+      <p lang="pt">O agente entra no pipeline como mais um integrante do time, com crachá limitado: portões humanos, GitHub Actions e um build que se conserta dentro de limites claros.</p>
+      <p lang="en">The agent joins the pipeline as one more team member, with a limited badge: human gates, GitHub Actions and a build that fixes itself within clear limits.</p>
+    </div>
+    <div class="card">
+      <h3><span lang="pt">Rastreabilidade, observabilidade e AI safety</span><span lang="en">Traceability, observability and AI safety</span></h3>
+      <p lang="pt">Se um agente escreveu, alguém precisa responder por quê, quanto custou e quem aprovou. Do requisito ao deploy, traces de execução, prompt injection e defesa em camadas.</p>
+      <p lang="en">If an agent wrote it, someone must answer why, what it cost and who approved it. From requirement to deploy, execution traces, prompt injection and layered defence.</p>
+    </div>
+  </div>
+</div></section>
+
+<section id="papel"><div class="wrap">
+  <h2><span lang="pt">O novo papel do desenvolvedor</span><span lang="en">The new role of the developer</span></h2>
+  <p class="sub" lang="pt">A IA não substitui quem faz engenharia. Ela muda onde está o trabalho: menos digitação, mais especificação, arquitetura, revisão, segurança e responsabilidade pelo resultado.</p>
+  <p class="sub" lang="en">AI does not replace people who do engineering. It moves where the work is: less typing, more specification, architecture, review, security and responsibility for the result.</p>
+  <div class="cards two">
+    <div class="card">
+      <h3><span lang="pt">O agente acelera</span><span lang="en">The agent speeds up</span></h3>
+      <ul lang="pt"><li>digitar código, boilerplate e CRUD</li><li>testes unitários</li><li>refatoração mecânica</li><li>documentação</li></ul>
+      <ul lang="en"><li>typing code, boilerplate and CRUD</li><li>unit tests</li><li>mechanical refactoring</li><li>documentation</li></ul>
+    </div>
+    <div class="card">
+      <h3><span lang="pt">Continua humano</span><span lang="en">Stays human</span></h3>
+      <ul lang="pt"><li>entender o problema</li><li>decidir os trade-offs</li><li>definir o que é "pronto"</li><li>revisar e assinar</li><li>responder pelo erro</li></ul>
+      <ul lang="en"><li>understanding the problem</li><li>deciding the trade-offs</li><li>defining what "done" means</li><li>reviewing and signing off</li><li>answering for the mistake</li></ul>
+    </div>
+  </div>
+</div></section>
+
+<section id="desafio"><div class="wrap">
+  <h2><span lang="pt">Desafio de uma noite</span><span lang="en">One-evening challenge</span></h2>
+  <p class="sub" lang="pt">Para quem estava na plateia e para quem chegou agora: use o agente como tutor, não como muleta.</p>
+  <p class="sub" lang="en">For those who were there and those arriving now: use the agent as a tutor, not a crutch.</p>
+  <ol class="desafio" lang="pt">
+    <li>Escolha um trabalho pequeno da faculdade.</li>
+    <li>Escreva um spec.md de uma página, com três critérios de aceite.</li>
+    <li>Escreva os testes antes.</li>
+    <li>Deixe um agente implementar numa branch.</li>
+    <li>Leia o diff inteiro e anote o que você mudaria.</li>
+    <li>Registre quantos tokens gastou.</li>
+  </ol>
+  <ol class="desafio" lang="en">
+    <li>Pick a small university assignment.</li>
+    <li>Write a one-page spec.md with three acceptance criteria.</li>
+    <li>Write the tests first.</li>
+    <li>Let an agent implement it on a branch.</li>
+    <li>Read the whole diff and note what you would change.</li>
+    <li>Record how many tokens you spent.</li>
+  </ol>
+  <div class="cta" style="margin-top:24px">
+    <a class="btn primary" href="slides.html"><span lang="pt">Abrir os slides</span><span lang="en">Open the slides</span></a>
+    <a class="btn ghost" href="../../#eventos"><span lang="pt">Todas as participações do LABRIOT</span><span lang="en">All LABRIOT events</span></a>
+  </div>
+</div></section>
+</main>
+
+<footer><div class="wrap">
+  <p>© 2026 LABRIOT · UTFPR Ponta Grossa</p>
+  <p lang="pt">Os slides são material de aula; os números de custo são ilustrativos e as calculadoras fazem estimativas didáticas. Claude Code é marca da Anthropic; Gemini e Antigravity são marcas do Google; GitHub é marca da GitHub, Inc.</p>
+  <p lang="en">The slides are teaching material; cost figures are illustrative and the calculators give teaching estimates. Claude Code is a trademark of Anthropic; Gemini and Antigravity are trademarks of Google; GitHub is a trademark of GitHub, Inc.</p>
+</div></footer>
+</body>
+</html>

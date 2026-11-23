@@ -456,8 +456,8 @@
       "id": "unicesumar-semana-academica-2026",
       "data": "2026-11-17",
       "titulo": {
-        "pt": "Semana Acadêmica UniCesumar",
-        "en": "UniCesumar Academic Week"
+        "pt": "2ª Semana Acadêmica UniCesumar",
+        "en": "2nd UniCesumar Academic Week"
       },
       "local": {
         "pt": "UniCesumar, Ponta Grossa (PR)",
@@ -474,7 +474,12 @@
           "en": "Talk “AI Agents and the New Role of the Developer”"
         }
       ],
-      "projetos": []
+      "projetos": [],
+      "link": {
+        "url": "https://itamariliuk.github.io/palestras/agentes-dev/",
+        "pt": "Página da palestra e slides",
+        "en": "Talk page and slides"
+      }
     },
     {
       "id": "fakenews-iolando-2026",
@@ -500,7 +505,12 @@
       ],
       "projetos": [
         "iapt"
-      ]
+      ],
+      "link": {
+        "url": "https://itamariliuk.github.io/ia-para-todos/familias/fake-news-iolando/",
+        "pt": "Página do encontro e materiais",
+        "en": "Meeting page and materials"
+      }
     }
   ]
 }
