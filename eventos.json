@@ -61,6 +61,16 @@
         "url": "https://abinc.org.br/premio-iot-2026/#vencedores",
         "pt": "Vencedores e fotos no site da ABINC",
         "en": "Winners and photos on the ABINC site"
+      },
+      "foto": {
+        "src": "https://itamariliuk.github.io/assets/img/eventos/abinc-2026.jpg",
+        "w": 1200,
+        "h": 800,
+        "alt": "Dr. Itamar Iliuk holding the certificate next to the ABINC representative holding the trophy, in front of a screen reading 1st place, LABRIOT – UTFPR, ABINC IoT Award 2026, Academia",
+        "credito": {
+          "pt": "Foto: ABINC / Prêmio IoT 2026",
+          "en": "Photo: ABINC / IoT Award 2026"
+        }
       }
     },
     {

@@ -41,6 +41,9 @@ CSS = """/* eventos:inicio */
 .ev h3{margin:0 0 2px;font-size:20px}
 .ev .local{margin:0 0 8px;color:var(--muted);font-size:14px}
 .ev .resumo{margin:0 0 12px}
+.ev .foto{margin:0 0 14px;max-width:520px}
+.ev .foto img{width:100%;height:auto;display:block;border-radius:10px;border:1px solid var(--line)}
+.ev .foto figcaption{font-size:12px;color:var(--muted);margin-top:4px}
 .ev .itens{list-style:none;margin:0 0 14px;padding:0;display:grid;gap:8px}
 .ev .itens li{display:grid;grid-template-columns:56px 1fr;gap:10px;font-size:15px}
 .ev .itens .h{font-weight:700;font-variant-numeric:tabular-nums;color:var(--brand)}
@@ -79,10 +82,13 @@ def evento_html(e, projs, hoje):
     lk = e.get("link")  # opcional: evento sem página pública fica sem o link
     link = f'<a href="{lk["url"]}">{bi(lk)} ↗</a>' if lk else ""
     chips = "".join(f'<a href="{projs[p]["url"]}">{html.escape(projs[p]["nome"])}</a>' for p in e["projetos"])
+    ft = e.get("foto")  # opcional: {"src": URL absoluta, "w", "h", "alt": texto, "credito": {"pt","en"}}
+    foto = (f'<figure class="foto"><img src="{ft["src"]}" width="{ft["w"]}" height="{ft["h"]}" loading="lazy" '
+            f'alt="{html.escape(ft["alt"])}"><figcaption>{bi(ft["credito"])}</figcaption></figure>') if ft else ""
     return (f'<li class="ev {st}" id="{e["id"]}">'
             f'<div class="data"><span class="d">{data.day}</span>{bi(mes, cls="m")}</div>'
             f'<div><span class="st">{bi(TXT[st])}</span><h3>{bi(e["titulo"])}</h3>'
-            f'{bi(e["local"], "p", "local")}{bi(e["resumo"], "p", "resumo")}'
+            f'{bi(e["local"], "p", "local")}{bi(e["resumo"], "p", "resumo")}{foto}'
             f'<ul class="itens">{itens}</ul>'
             f'<div class="rodape"><span class="proj">{chips}</span>'
             f'{link}</div></div></li>')
