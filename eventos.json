@@ -39,8 +39,8 @@
         "en": "inovabra habitat, São Paulo, Brazil"
       },
       "resumo": {
-        "pt": "Cerimônia de premiação da 8ª edição. O IGM ganhou o 1º lugar na categoria Academia.",
-        "en": "Award ceremony of the 8th edition. IGM won first place in the Academia category."
+        "pt": "Cerimônia de premiação da 8ª edição. O IGM, sistema IoT de visão computacional na borda para monitorar manômetros industriais, ganhou o 1º lugar na categoria Academia.",
+        "en": "Award ceremony of the 8th edition. IGM, an edge computer-vision IoT system for monitoring industrial pressure gauges, won first place in the Academia category."
       },
       "itens": [
         {
@@ -58,9 +58,9 @@
         "igm"
       ],
       "link": {
-        "url": "https://abinc.org.br/premio-iot-2026/#cerimonia-premio-iot-2026",
-        "pt": "Página da premiação",
-        "en": "Award page"
+        "url": "https://abinc.org.br/premio-iot-2026/#vencedores",
+        "pt": "Vencedores e fotos no site da ABINC",
+        "en": "Winners and photos on the ABINC site"
       }
     },
     {
